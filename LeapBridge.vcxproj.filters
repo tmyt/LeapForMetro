@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>5bf36083-126b-42d0-b478-9982f10c78fc</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LeapBridge">
+      <UniqueIdentifier>{91c73de3-41ae-475c-a9ff-b2d7c98f2ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NativeBridge">
+      <UniqueIdentifier>{07c90c3b-69ae-4160-a38b-dc58e4fc54c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LeapSDK">
+      <UniqueIdentifier>{d9444cad-fbce-4622-a1b4-11b5ddd834f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LeapSDK\include">
+      <UniqueIdentifier>{fe100771-e471-4afe-b0eb-bc4ae37c5f69}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="LeapBridge\Controller.cpp">
+      <Filter>LeapBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="NativeBridge\ListenerBridge.cpp">
+      <Filter>NativeBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="LeapBridge\Frame.cpp">
+      <Filter>LeapBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="LeapBridge\Utilities.cpp">
+      <Filter>LeapBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="LeapBridge\Hand.cpp">
+      <Filter>LeapBridge</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="LeapBridge.h" />
+    <ClInclude Include="LeapBridge\Interface.h">
+      <Filter>LeapBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapBridge\Utilities.h">
+      <Filter>LeapBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapBridge\Vector.h">
+      <Filter>LeapBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapBridge\InteractionBox.h">
+      <Filter>LeapBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapBridge\Frame.h">
+      <Filter>LeapBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapBridge\Enums.h">
+      <Filter>LeapBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapBridge\Pointable.h">
+      <Filter>LeapBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapBridge\Hand.h">
+      <Filter>LeapBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapBridge\Matrix.h">
+      <Filter>LeapBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="LeapSDK\include\Leap.h">
+      <Filter>LeapSDK\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
